@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url('../../imagens/Fundo.jpg');
+    background-size: cover;
+}
+
+.titulo1{
+    color: #122F7C;
+    font-size: 40px;
+}
+
+.titulo2{
+    color: #122F7C;
+    padding-left: 12.7%;
+    font-size: 30px;
+}
+
+.titulo3{
+    color: #122F7C;
+    padding-left: 17%;
+    font-size: 30px;
+}
+
+.caixaTitulo{
+    margin-top: 13%;
+    margin-left: 1%;
+}
+
+.menuHeader{
+    padding-left: 3%;
+    display: flex;
+}
+
+.btnMenuAtivo{
+    background-color: transparent;
+    color: #122F7C;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnMenu{
+    background-color: transparent;
+    color: #687AA8;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.linhaMenuBemVindo{
+    margin-top: -10px;
+    margin-left: 4%;
+    height: 2px;
+    width: 110px;
+    background-color: #122F7C;
+}
+
+.containerFoto {
+    height: 400px;
+    width: 400px;
+    background-color: #122F7C;
+    border-radius: 250px;
+    margin-left: 68.5%;
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #6A6A75;
+    overflow: hidden;
+  }
+  
+  .FotoPerfil {
+    border-radius: 250px;
+    height: 480px;
+    width: 100%;
+  }
+
+  .txt{
+    font-size: 17px;
+    color:#687AA8;
+    margin-top: 40px;
+    margin-left: 2%;
+  }
+
+  .imgSocial{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .containerSocial{
+    margin-left: 76%;
+    margin-top: 2px;
+  }
+
+  .btnSocial{
+    border: none;
+    background-color: transparent;
+  }
